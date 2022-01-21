@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+}
+@media (max-width: 768px) {
+    .header {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 370px) {
+    .header {
+        flex-direction: column;
+    }
+}
+.header__left,
+.header__right {
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 610px) {
+    .header__left,
+    .header__right {
+        flex-direction: column;
+    }
+}
+.header .a {
+    padding: 10px;
+}

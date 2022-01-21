@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    /* padding-left: 420px;? */
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+}
+.footer a {
+    color: #cbcfd4;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 10px 0;
+}
+.footer h4{
+    font-weight: 700;
+    font-size: 10px;
+}
+.footer__column{
+    display: flex;
+    flex-direction: column;
+    margin: 80px 42px;
+}
